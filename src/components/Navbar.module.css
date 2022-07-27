@@ -1,0 +1,33 @@
+header {
+    background-color: aquamarine;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+    margin-inline: 4rem;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+ul {
+    display: flex;
+    padding-left: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.listItem {
+    text-decoration: none;
+    padding: 0.5rem;
+    align-items: center;
+    border: 1px solid whitesmoke;
+}
