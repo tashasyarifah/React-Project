@@ -1,14 +1,23 @@
+@use "../abstract" as *;
+
 header {
-    background-color: aquamarine;
+    background-color: $green-light;
 }
 
-.wrapper {
+header_wrapper {
     display: flex;
     justify-content: space-between;
     justify-items: center;
     text-align: center;
     align-items: center;
     margin-inline: 4rem;
+
+    &-listItem {
+        text-decoration: none;
+        padding: 0.5rem;
+        align-items: center;
+        border: 1px solid whitesmoke;
+    }
 }
 
 h1 {
@@ -23,11 +32,4 @@ ul {
 
 li {
     list-style-type: none;
-}
-
-.listItem {
-    text-decoration: none;
-    padding: 0.5rem;
-    align-items: center;
-    border: 1px solid whitesmoke;
 }
